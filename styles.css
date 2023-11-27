@@ -1,0 +1,175 @@
+body,
+.top,
+.middle,
+.second-middle,
+.image-subtext,
+.bottom-text{
+    display:flex;
+    flex-direction: column;
+}
+
+body{ /*Removes default margin setting!*/
+    margin : 0;
+}
+
+.links,
+.first,
+.second,
+.images,
+.bottom
+{
+    display:flex;
+}
+
+.top,
+.footer{
+background-color: #1F2937;
+}
+
+
+/* div class = top */
+.top {
+    display: flex;
+    align-items: center;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.first{
+    gap : 369px;
+}
+
+.logo {
+    color:#F9FAF8;
+    font : 24px;
+}
+.links
+{
+    gap: 20px;
+    margin-top:20px;
+    list-style-type: none;
+}
+
+#first-image {
+    width:500px;
+    height:auto;
+}
+
+.second-contain{ 
+    padding-bottom: 100px;
+    width:470px;
+}
+
+.second{
+    gap:100px;
+    align-items: center;
+}
+
+.first-h {
+    font-size:48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.first-p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.second-button{
+    background-color:#3882F6;
+    border-color:#3882F6;
+    border-radius: 10px;
+    color:#F9FAF8;
+    padding:0;
+    width:100px;
+    height:30px;
+}
+/* div class = top */
+
+/* div class = middle */
+.second-h{
+    text-align: center;
+}
+
+.images{
+    margin-left: auto;
+    margin-right: auto;
+    gap : 40px;
+}
+.second-images{
+    height:150px;
+    border-radius: 10px;
+    border:solid blue 2px;
+    width:150px;
+}
+/* div class = middle */
+
+/* div class = second-middle */
+.second-middle{
+    align-items: center;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+.second-middle p{
+    font : 36px;
+    margin-top: 150px;
+    margin-bottom:auto;
+    font-style:italic;
+    font-weight:400;
+    color:#1F2937
+}
+/* div class = second-middle */
+
+/* div class = bottom */
+
+.bottom{
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border-radius:5px;
+    margin : 80px 150px;
+    justify-content: space-around; 
+    margin:40px 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    height:140px;
+    width:1000px;
+}
+
+.bottom-header{
+    font-weight: 900;
+    font-size: 18px;
+    margin:40px 0 0 0;
+}
+
+.bottom-subtext{
+    margin:0 0 40px 0;
+}
+
+.bottom-button{
+    align-self: center;
+    padding:5px 25px 5px 25px;
+    color:#F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: #F9FAF8;
+}
+/* div class = bottom */
+
+/* div class = footer*/
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.footer p{
+    color: #F9FAF8;
+    font-size:10px;
+}
+
+/* div class = footer */
